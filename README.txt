@@ -1,1 +1,1 @@
-hi - jenna
+trello board: https://trello.com/b/bKzJlDxJ/swen-101-group-8
