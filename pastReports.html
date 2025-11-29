@@ -8,40 +8,78 @@
         <div class="container">
         <nav class="sidebar">
             <ul>
-                <li><a href="#">Menu</a></li>  
-                <li><a href="#">Location</a></li>
+                <li><a href="index.html">Queue</a></li>   
+                <li><a href="map.html">Location</a></li>
                 <li><a href="#">Settings</a></li>
             </ul>
         </nav>
         <style>
+
+            h2{
+                display: inline;
+            }
+
+            .left-mid{
+                margin-right: 600px;
+            }
+
+
            .colored-textbox {
                 background-color: #b1dbff; /* Light blue background */
                 color: #000000;              /* Text color */
                 border: 1px solid #334d61;   /* Border color */
-                padding-left: 40px;             /* Inner spacing */
+                padding-left: 300px;             /* Inner spacing */
                 font-size: 16px;          /* Font size */
                 border-radius: 4px;       /* Rounded corners */
                 width: 260px;             /* Width of the textbox */
                 height: 32px;
                 box-sizing: border-box; 
+                display:inline-block;
+                padding-right: 300px;
+                text-align: center;
            }
+
         </style>
 
-        <h1 align="left">Status</h1>
-        <div class = "colored-textbox" align = "left">
-            Emergency
+       <div>
+        <h2 class = "left-mid">Status</h2>
+        <h2 class = "left-mid">Type</h2>
+        <h2>Date</h2>
+       </div>
+
+        <div>
+            <div class = "colored-textbox">
+                Ongoing
+            </div>
+            <div class = "colored-textbox">
+                Emergency
+            </div>
+            <div class = "colored-textbox">
+                1/1/19
+            </div>
         </div>
-
-        <h1 align="center">Type</h1>
-        <div class = "colored-textbox" align = "center">
-            Ongoing
+        <div>
+            <div class = "colored-textbox">
+                Resolved
+            </div>
+            <div class = "colored-textbox">
+                Maintenance
+            </div>
+            <div class = "colored-textbox">
+                2/2/17
+            </div>
         </div>
-
-        <h1 align="right">Date</h1>
-        <div class = "colored-textbox" align = "right">
-            1/1/19
+        <div>
+            <div class = "colored-textbox">
+                Disregarded
+            </div>
+            <div class = "colored-textbox">
+                Overflowing
+            </div>
+            <div class = "colored-textbox">
+                3/3/16
+            </div>
         </div>
-
-
+        
     </body>
 </html>
